@@ -1,6 +1,5 @@
-FROM ubuntu:22.04
-RUN apt update
-RUN apt install openjdk-17-jdk wget -y
+FROM node:latest
+
 
 WORKDIR /usr/src/app
 
